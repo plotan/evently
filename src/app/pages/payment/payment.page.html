@@ -1,0 +1,69 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar class="ion-no-padding" mode="md">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="" icon="chevron-back" (click)="back()"></ion-back-button>
+        </ion-buttons>
+        <ion-title mode="ios">{{'payment.title' | translate}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <div class="pay">
+        <div class="deails_div ion-padding" *ngIf="setting?.paypal == 1">
+            <ion-item *ngFor="let p of payment_divP" mode="md" (click)="item(p.name)" class="ion-no-padding" button
+                lines="none">
+                <img *ngIf="p.img" src="{{p.img}}">
+                <p>{{p.name}}</p>
+                <img *ngIf="select != p.name" slot="end" src="../../../assets/payment/Ellipse 42.png">
+                <img *ngIf="select == p.name" slot="end" src="../../../assets/payment/checl.svg">
+            </ion-item>
+        </div>
+        <div class="deails_div ion-padding" *ngIf="setting?.razor == 1">
+            <ion-item *ngFor="let p of payment_divR" mode="md" (click)="item(p.name)" class="ion-no-padding" button
+                lines="none">
+                <img *ngIf="p.img" src="{{p.img}}">
+                <p>{{p.name}}</p>
+                <img *ngIf="select != p.name" slot="end" src="../../../assets/payment/Ellipse 42.png">
+                <img *ngIf="select == p.name" slot="end" src="../../../assets/payment/checl.svg">
+            </ion-item>
+        </div>
+        <div class="deails_div ion-padding" *ngIf="setting?.stripe == 1">
+            <ion-item *ngFor="let p of payment_divS" mode="md" (click)="item(p.name)" class="ion-no-padding" button
+                lines="none">
+                <img *ngIf="p.img" src="{{p.img}}">
+                <p>{{p.name}}</p>
+                <img *ngIf="select != p.name" slot="end" src="../../../assets/payment/Ellipse 42.png">
+                <img *ngIf="select == p.name" slot="end" src="../../../assets/payment/checl.svg">
+            </ion-item>
+        </div>
+        <div class="deails_div ion-padding" *ngIf="setting?.cod == 1">
+            <ion-item *ngFor="let p of payment_divC" mode="md" (click)="item(p.name)" class="ion-no-padding" button
+                lines="none">
+                <img *ngIf="p.img" src="{{p.img}}">
+                <p>{{p.name}}</p>
+                <img *ngIf="select != p.name" slot="end" src="../../../assets/payment/Ellipse 42.png">
+                <img *ngIf="select == p.name" slot="end" src="../../../assets/payment/checl.svg">
+            </ion-item>
+        </div>
+        <div class="deails_div ion-padding" *ngIf="setting?.flutterwave == 1">
+            <ion-item *ngFor="let p of payment_divF" mode="md" (click)="item(p.name)" class="ion-no-padding" button
+                lines="none">
+                <img *ngIf="p.img" src="{{p.img}}">
+                <p>{{p.name}}</p>
+                <img *ngIf="select != p.name" slot="end" src="../../../assets/payment/Ellipse 42.png">
+                <img *ngIf="select == p.name" slot="end" src="../../../assets/payment/checl.svg">
+            </ion-item>
+        </div>
+    </div>
+    <ngx-paypal *ngIf=" select=='Paypal'" [config]="payPalConfig"></ngx-paypal>
+</ion-content>
+
+<ion-footer class="ion-no-border ">
+    <ion-toolbar class="ion-no-padding">
+        <div class="ion-padding-start ion-padding-end btn-last">
+            <ion-button [disabled]="checkbtn==true " expand="full " (click)="done() " class="btn "
+                color="var(--ion-back-color) ">
+                {{'payment.proced' | translate}}
+            </ion-button>
+        </div>
+    </ion-toolbar>
+</ion-footer>

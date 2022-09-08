@@ -1,0 +1,295 @@
+{
+    "donemodel": {
+        "label": "Terminé"
+    },
+    "eventPage": {
+        "share": "Partager cet événement",
+        "contactOrganizer": "Contacter l'organisateur",
+        "reportEvent": "Signaler l'événement",
+        "cancel": "Cancel"
+    },
+    "social": {
+        "title": "Share the Event",
+        "whats": "Whatsapp",
+        "face": "Facebook",
+        "gmai": "Gmail",
+        "insta": "Instagram"
+    },
+    "addReview": {
+        "title": "Ajouter un commentaire",
+        "how": "Combien d'étoiles vous donnerez",
+        "btn": "Partager l'avis"
+    },
+    "coupons": {
+        "title": "Bons de réduction",
+        "upto": "Le code de l'offre est valable jusqu'à"
+    },
+    "editProfile": {
+        "title": "Modifier le profil",
+        "name": "Nom",
+        "lastName": "Prénom",
+        "mobile": "Mobile"
+    },
+    "findFolo": {
+        "title": "Following",
+        "follow": "Follow"
+    },
+    "followpage": {
+        "title": "Suivez pour voir ce qu'il y a",
+        "going": "En cours",
+        "best": "Découvrez les grands événements en premier lieu, de la part de nos meilleurs",
+        "loca": "Organisateurs locaux",
+        "follow": "Follow",
+        "following": "Following",
+        "btn": "Commencer"
+    },
+    "goout": {
+        "title": "Quand veux-tu sortir ?",
+        "date": "Sélectionnez une date",
+        "btn": "Suivant"
+    },
+    "heading": [
+        {
+            "name": "Tous"
+        },
+        {
+            "name": "Aujourd'hui"
+        },
+        {
+            "name": "Demain"
+        },
+        {
+            "name": "Cette semaine"
+        },
+        {
+            "name": "Choisissez une date"
+        }
+    ],
+    "likes": {
+        "title": "Likes"
+    },
+    "locate1": {
+        "where": "Où?",
+        "useMy": "Utiliser ma position actuelle",
+        "popular": "Emplacements populaires",
+        "next": "Suivant"
+    },
+    "moodfor": {
+        "goOut": "Quand veux-tu sortir ?",
+        "all": "Tous",
+        "btn": "Suivant"
+    },
+    "notificationCentre": {
+        "centre": "Centre de notification",
+        "no": "Aucune notification en cours",
+        "recent": "Vos achats récents d'événements de",
+        "other": "Organisateurs que vous suivez et autres"
+    },
+    "payment": {
+        "title": "Paiement",
+        "card": "NUMÉRO DE CARTE",
+        "expire": "MOIS D'EXPIRATION",
+        "expireYear": "ANNÉE D'EXPIRATION",
+        "cvv": "CVV",
+        "proced": "Procéder au paiement"
+    },
+    "pickcity": {
+        "title": "Où es-tu",
+        "go": "Sortir?",
+        "weW": "Nous vous montrerons ce qui est bon près de chez vous",
+        "pick": "Choisissez une ville"
+    },
+    "profile": {
+        "like": "Aime",
+        "tickets": "Mes billets",
+        "following": "Suivant",
+        "notificationCentre": "Centre de notifications",
+        "sett": "Réglages",
+        "prim": "Ville principale",
+        "orga": "Les organisateurs",
+        "sup": "Support",
+        "pri": "Privacy",
+        "terms": "Conditions d'utilisation",
+        "cookig": "Politique relative aux cookies",
+        "acknowleg": "Remerciements",
+        "about": "À propos",
+        "version": "Version",
+        "help": "Centre d'aide",
+        "log": "Se déconnecter"
+    },
+    "reportEvent2": {
+        "title": "Signaler l'événement",
+        "email": "Email",
+        "reason": "Raison",
+        "message": "Message",
+        "send": "Envoyer le message",
+        "emailPlace": "Entrer votre Email",
+        "reportPlace": "Autre"
+    },
+    "searchresult": {
+        "in": "Dans",
+        "placeholder": "Rechercher n'importe quoi",
+        "all": "Tous",
+        "freeEvent": "Événement gratuit",
+        "event": "Événements"
+    },
+    "searchTab": {
+        "place": "Rechercher.....",
+        "want": "Je veux sortir",
+        "and": "Et je suis d'humeur pour",
+        "searchi": "Rechercher dans",
+        "findThings": "Trouvez des choses à faire!"
+    },
+    "signin": {
+        "skip": "Ignorer pour l'instant",
+        "signin": "S'IDENTIFIER",
+        "email": "Email",
+        "emailPlace": "Entrer votre Email",
+        "pass": "Mot de passe",
+        "passPlace": "*************",
+        "btn": "S'identifier",
+        "dontAc": "Vous n'avez pas de compte ?",
+        "btn2": "S'inscrire"
+    },
+    "signup": {
+        "skip": "Ignorer pour l'instant",
+        "lets": "Commençons",
+        "signin": "Inscrivez-vous ou connectez-vous pour voir nos meilleurs choix pour vous!",
+        "email": "Email",
+        "emailPlace": "Entrer votre Email",
+        "name": "Prénom",
+        "namePlace": "Entrez votre prénom",
+        "lastName": "Nom",
+        "lastNamePlace": "Entrez votre nom",
+        "pass": "Mot de passe",
+        "passPlace": "*************",
+        "phone": "Téléphone",
+        "phonePlace": "Entrez votre N° de téléphone",
+        "btnMai": "S'inscrire",
+        "bys": "En m'inscrivant, j'accepte les conditions d'eTicket GN",
+        "terms": "Conditions de services",
+        "and": "Et",
+        "communi": "Directives de la communauté",
+        "pri": "Politique de confidentialité"
+    },
+    "tickets": {
+        "upcoming": "A venir",
+        "past": "Billets passés",
+        "not": "Vous ne voyez pas vos billets ?",
+        "learn": "En savoir plus sur la façon de les trouver",
+        "find": "Trouver mes billets",
+        "id": "Numéro de commande",
+        "add": "+Ajoutez votre avis",
+        "viewD": "Voir les détails"
+    },
+    "ticketDetailss": {
+        "name": "Détails du billet",
+        "invalid": "Désolé, le code promotionnel que vous avez entré n'est pas valide",
+        "by": "Par",
+        "price": "Prix",
+        "fre": "Gratuit",
+        "qty": "Quantité",
+        "sold": "Vendu",
+        "tie": "Temps",
+        "to": "À",
+        "how": "Combien voulez-vous ?",
+        "you": "Vous avez un coupon à appliquer !",
+        "now": "Appliquer maintenant",
+        "dis": "Remise",
+        "p": "Payer",
+        "freBook": "Réservation gratuit",
+        "type": "Type de billet",
+        "more": "Plus d'info"
+    },
+    "singleTicketPage": {
+        "sold": "Vendu",
+        "by": "Par",
+        "online": "Événement en ligne",
+        "abt": "À propos",
+        "re": "Lire la suite",
+        "tgs": "Mots clés",
+        "loca": "Location",
+        "or": "Organisateur",
+        "fol": "Follow",
+        "folwo": "Following",
+        "moreEventLike": "Plus d'événements comme celui-ci",
+        "tiOf": "Billets de",
+        "bu": "Acheter un billet"
+    },
+    "singleDetailsOfPage": {
+        "title": "Détails",
+        "r": "+Ajoutez votre avis",
+        "n": "Numéro de billet",
+        "wt": "Quantité",
+        "sol": "Vendu",
+        "st": "Statut de réservation",
+        "dis": "Bon de réduction",
+        "p": "Paiement",
+        "fre": "Gratuit",
+        "paySta": "Statut de paiement",
+        "pen": "En attente",
+        "co": "Complete",
+        "ge": "Payment Gateway",
+        "cod": "COD",
+        "btn": "Détails du billet"
+    },
+    "siPa": {
+        "ti": "Billets",
+        "not": "Vous ne voyez pas vos billets ?",
+        "learn": "En savoir plus sur la façon de les trouver",
+        "f": "Trouver mes billets"
+    },
+    "firstTabHome": {
+        "title": "Ce qui est bon dans",
+        "edi": "Choix de l'éditeur"
+    },
+    "SelectLanguage": {
+        "label": "Choisir la langue",
+        "english": "Anglais",
+        "arabic": "Arabe",
+        "french": "français",
+        "Cancel": "Annuler",
+        "ok": "Ok",
+        "l": "Chargement.."
+    },
+    "alertPopup": {
+        "alert": "Alerte",
+        "are": "Êtes-vous sûr de vouloir effacer toutes les notifications ?",
+        "text": "OK"
+    },
+    "paymentToast": {
+        "completed": "Réservation terminée avec succès",
+        "sry": "Désolé ! Paiement impossible avec RazorPay",
+        "notPossible": "Paiement impossible",
+        "done": "Paiement réussi",
+        "canceled": "Paiement annulé"
+    },
+    "ticketToast": {
+        "notLogin": "Veuillez vous connecter ......",
+        "already": "Vous avez déjà suivi"
+    },
+    "tick2": {
+        "coupon": "Coupon appliqué avec succès",
+        "some": "Quelque chose s'est mal passé",
+        "booking": "Réservation terminée avec succès",
+        "more": "Vous ne pouvez pas acheter plus de",
+        "ticekN": "Billet non disponible",
+        "re": "Signalé avec succès",
+        "profile": "Mise à jour du profil réussie",
+        "im": "L'image a été modifiée avec succès",
+        "cErr": "Code promo non valide pour cet événement !"
+    },
+    "errs": {
+        "first_name": "Le champ prénom est obligatoire.",
+        "last_name": "Le champ du nom de famille est obligatoire.",
+        "password": "Le champ mot de passe est obligatoire.",
+        "phone": "Le champ N° de téléphone est obligatoire.",
+        "email": "Le champ e-mail est obligatoire.",
+        "emailEr": "L'e-mail doit être une adresse e-mail valide.",
+        "passEr": "Le mot de passe doit comporter au moins 6 caractères."
+    },
+    "ticketqrcode": {
+        "title": "Détails du billet",
+        "ticket_number": "Numéro de billet"
+    }
+}

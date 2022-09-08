@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar mode="md">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/tabs/tab2" icon="chevron-back"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row class="ion-padding-start ion-padding-end ion-padding-top">
+            <ion-col size="12" class="ion-padding-start ion-padding-end">
+                <div class="ion-text-center">
+                    <h1>{{'goout.title' | translate}}</h1>
+                    <div class="ion-text-center ion-padding-top" *ngFor="let h of heading">
+                        <h5 [ngClass]="select == h?.name ? 'active':'h5'" (click)="event(h?.name)">{{h.name}}</h5>
+                    </div>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-item *ngIf="select == 'Choose a date'">
+        <ion-label>{{'goout.date' | translate}}</ion-label>
+        <ion-datetime (ionChange)="date($event)" value="{{today}}" displayFormat="DDD. MMM DD, YY"></ion-datetime>
+    </ion-item>
+</ion-content>
+<ion-footer class="ion-no-border">
+    <ion-toolbar class="ion-padding">
+        <ion-button mode="md" (click)="goN()" expand="full" color="var(--ion-back-color)">
+            {{'goout.btn' | translate}}
+        </ion-button>
+    </ion-toolbar>
+</ion-footer>
